@@ -9,7 +9,12 @@ a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin:
 
 @media screen and (max-width: 768px){
 html, body{background-color: blue;}
+p{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
+a{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
 .navbar{overflow:hidden; background-color: #333; position: relative;}
 .navbar #sitelinks{display:none;}
 .navbar a{color:white; padding: 1% 1%; text-decoration: none; font-size: 2em; display: block;}
+.infobox{width: 80%; height: auto; padding: 2em; margin: 2em; background-color: black;}
+.infobox_text{border: 1em solid #777777; margin: 1em;}
+img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; margin-right: auto; border-radius: 2em;}
 }
