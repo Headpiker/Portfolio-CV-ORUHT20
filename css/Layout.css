@@ -7,7 +7,7 @@ a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin:
 .navbar a.active{background-color: green; color: white;}
 #bakgrundsbild{background-image: url(../images/bakgrund.jpg); width: 100%; height: 56.25vw; padding: 0; margin: 2.5em 0 0 0; background-size: 100% auto;}
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){ /*Mobilsidan*/
 html, body{background-color: blue;}
 p{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
 a{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
