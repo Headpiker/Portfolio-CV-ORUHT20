@@ -1,6 +1,8 @@
 html, body { width: 100%; height: auto; padding: 0;margin: 0; background-image: url(../images/bakgrund.jpg); background-size: 100% auto;}
 p{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin: 0; text-align: center;}
 a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin: 0; text-align: center;}
+
+/*Menyn högst upp på sidan*/
 .navbar{overflow: hidden; background-color: blue;}
 .navbar a{float: left; display: block; color: #f2f2f2; text-align: center; padding: 1em 1em; text-decoration: none; font-size: 1em;}
 .navbar a:hover{background-color: #ddd; color: black;}
@@ -14,6 +16,9 @@ a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin:
 .showing{opacity: 1; z-index: 2;}
 .slide{font-size: 40px; padding: 40px; box-sizing: border-box;}
 #pause{background-color: green; color: white; padding: 1em 1em; text-align: center; font-size: 1em;}
+
+/*Kontaktformulär*/
+.kontakt{background-color: white; color: red;}
 
 /*Mobilsidan*/
 @media screen and (max-width: 768px){ 
