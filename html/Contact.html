@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="../JS/script.js"></script>
-    <script src="../JS/regex.js"></script>
+    <script src="../JS/script.js" type="text/javascript"></script>
+    <script src="../JS/regex.js" type = "text/javascript"></script>
     </head>
     <body>
         <div class="navbar" id="myNavbar">
@@ -25,14 +25,14 @@
             <form class="kontakt">
                 <label for="namn">Namn:</label><br>
                 <input type="text" id="namn" name="namn" onchange="checkName()"><br>            
-                <label for="telNr">Telefonnummer:</label><br>
-                <input type="tel" id="telNr" name="telNr"><br>
+                <label for="number">Telefonnummer:</label><br>
+                <input type="text" id="number" name="number" ><br>
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
+                <input type="email" id="email" name="email" onchange="checkMail()" ><br>
                 <label for="meddelande">Meddelande:</label><br>
-                <textarea name="meddelande"></textarea><br>
+                <textarea name="meddelande" ></textarea><br>
                 <input type="submit">
-            </form>
+            </form>     
         </div>
     </body>
 </html>
