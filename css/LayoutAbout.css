@@ -66,23 +66,23 @@ img.infobox_img
     clear: both;
 }
 .content {
-    background-color: green;
+    background-color: gray;
     padding: 10px;
     margin-left: 10%;
   margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: 2px solid green;
+  border: 2px solid gray;
     border-radius: 15%;
 }
 .text {
-    padding: 0 16px;
-  text-align: center;
+    padding: 1px;
+  text-align: left;
 }
 .img {
     border-radius: 15%;
 }
 @media screen and (max-width: 768px) {
     .column {
-        width: 100%;
+        width: 50%;
     }
 }
