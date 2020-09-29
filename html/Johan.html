@@ -2,17 +2,22 @@
 <html lang="sv-se">
 <head>
     <title>Homepage</title>
-    <link rel="stylesheet" href="../css/Layout.css"/> 
+    <link rel="stylesheet" href="../css/LayoutAbout.css"/> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
     <script src="../JS/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img {
+            border-radius: 15%;
+        }
+</style>
 </head>
 <body>
     <div class="navbar" id="sitelinks">
-        <a class ="active" href="index.html">Homepage</a>            
-        <a href="About.html">About us</a>
+        <a  href="index.html">Homepage</a>            
+        <a class ="active" href="About.html">About us</a>
         <a href="">Maps</a>
         <a href="Portfolio.html">Portfolio</a>        
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -21,20 +26,26 @@
     </div>
     <div id="bakgrundsbild"></div>
     <div class="infobox">
-        <div class="infobox_rubrik">
-            <div class="infobox_img">
-                <div class="infobox_text">
-                    <p>Emil</p><p>Lorem ipsum dolor sit amet.</p>
-                    <img class="infobox_img" src="../images/batman.jpg" alt="batman" style="width:100%"/>
-                    <p><a href="">Läs mer</a></p>
-                </div>
-                <div class="infobox_text">
-                    <img class="infobox_img" src="../images/mjolnir.jpg" alt="mjolnir" style="width:100%"/>
-                    <p>Johan</p><p>Lorem ipsum dolor sit amet.</p>
-                </div>
+        <div class="row">
+            <div class="column">
+            <div class="content">
+              <img src="../images/mjolnir.jpg" alt="mjolnir"
+              style="width:100%">
+              </div>
             </div>
+            <div class="text">
+                <h1><p>Johan</p></h1>
+                <h2><p>Lorem ipsum dolor sit amet</p></h2>
+                <h2><p>tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam.</p></h2>
+                <h2><p>Lorem ipsum dolor sit amet, tempor prodesset eos no.</p></h2>
+            </div>
+            
         </div>
-    </div>   
+
+    </div> 
+
+
+
     
     
 </body>

@@ -46,19 +46,19 @@ img.infobox_img
 }
 .row {
     float: left;
-  width: 100%;
+  /* width: 30%;
   margin-top: 20px;
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 8px;
+  padding: 0 8px; */
 }
 /* .row > .column {
     padding: 8px;
 } */
 .column{
     float: left;
-    width: 32%;
+    width: 25%;
 }
 .row_after {
     content:"";
@@ -71,7 +71,8 @@ img.infobox_img
     margin-left: 10%;
   margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+  border: 2px solid green;
+    border-radius: 15%;
 }
 .text {
     padding: 0 16px;
