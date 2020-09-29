@@ -46,7 +46,11 @@ img.infobox_img
 }
 .row {
     float: left;
+<<<<<<< Updated upstream
   width: 100%;
+=======
+  width: 30%;
+>>>>>>> Stashed changes
   margin-top: 20px;
   margin-bottom: 16px;
   margin-left: auto;
@@ -77,9 +81,12 @@ img.infobox_img
     padding: 0 16px;
   text-align: center;
 }
+<<<<<<< Updated upstream
 .img {
     border-radius: 15%;
 }
+=======
+>>>>>>> Stashed changes
 @media screen and (max-width: 768px) {
     .column {
         width: 100%;
