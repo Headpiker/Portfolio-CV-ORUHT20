@@ -23,15 +23,19 @@
 
         <div>
             <form class="kontakt">
-                <label for="namn">Namn:</label><br>
-                <input type="text" id="namn" name="namn" onchange="checkName()"><br>            
-                <label for="number">Telefonnummer:</label><br>
-                <input type="text" id="number" name="number" ><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" onchange="checkMail()" ><br>
-                <label for="meddelande">Meddelande:</label><br>
-                <textarea name="meddelande" ></textarea><br>
-                <input type="submit">
+                <label for="namn"class="label">Namn:</label><br>
+                <input type="text" class="field" id="namn" name="namn" onchange="checkName()" onkeyup="manageSubmit()" placeholder="Name"><br>            
+                
+                <label for="number"class="label">Telefonnummer:</label><br>
+                <input type="text" class="field" id="number" name="number" onchange="checkNumber()" onkeyup="manageSubmit()" placeholder="0701234567"><br>
+                
+                <label for="email" class="label">Email:</label><br>
+                <input type="email" class="field" id="email" name="email" onchange="checkMail()" onkeyup="manageSubmit()" placeholder="Email"><br>
+                
+                <label for="meddelande"class="label">Meddelande:</label><br>
+                <textarea name="meddelande" class="field" id="meddelande" onchange="checkText()" onkeyup="manageSubmit()" placeholder="Message"></textarea><br>
+                
+                <input type="submit" id="submit" disabled/>
             </form>     
         </div>
     </body>
