@@ -34,3 +34,48 @@ a{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin
 .infobox_text{border: 1em solid #777777; margin: 1em;}
 img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; margin-right: auto; border-radius: 2em;}
 }
+.main{
+    max-width: 768px;
+    margin: auto;
+}
+.row {
+    float: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 8px;
+}
+
+.column{
+    float: left;
+    width: 32%;
+}
+.row_after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: gray;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid darkgray;
+    border-radius: 15%;
+}
+}
+.text {
+    padding: 0 16px;
+  text-align: center;
+}
+.img {
+    border-radius: 15%;
+}
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+}
