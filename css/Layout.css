@@ -36,3 +36,15 @@ a{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin
 .infobox_text{border: 1em solid #777777; margin: 1em;}
 img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; margin-right: auto; border-radius: 2em;}
 }
+
+.skillbar{box-sizing: border-box;}
+.container{width: 100%; background-color: grey;}
+.skills{text-align: right; padding-top: 1em; padding-bottom: 1em; color: white;}
+.htmlEmil{width: 85%; background-color: green;}
+.cssEmil{width: 80%; background-color: blue;}
+.JSEmil{width: 45%; background-color: red;}
+.JQEmil {width: 10%; background-color: darkgray;}
+.htmlJohan{width: 90%; background-color: green;}
+.cssJohan{width: 95%; background-color: blue;}
+.JSJohan{width: 55%; background-color: red;}
+.JQJohan{width: 20%; background-color: darkgray;}
