@@ -23,8 +23,8 @@ a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin:
 /*Mobilsidan*/
 @media screen and (max-width: 768px){ 
 html, body{background-image: url(../images/bakgrund.jpg);}
-p{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
-a{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
+p{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin: 0; text-align: center;}
+a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin: 0; text-align: center;}
 .navbar a:not(:first-child) {display: none;} /*Meny*/
 .navbar a.icon{float: right; display: block;}
 .navbar.responsive{position: relative;} /*Den här körs bara i responsivt läge*/
@@ -43,19 +43,12 @@ img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; marg
     max-width: 768px;
     margin: auto;
 }
-.row {
+.row {/*Kod för raderna*/
     float: left;
-  /* width: 30%;
-  margin-top: 20px;
-  margin-bottom: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 8px; */
+  
 }
-/* .row > .column {
-    padding: 8px;
-} */
-.column{
+
+.column{/*Gör så att bilder/textrutor hamnar brevid varandra med plats för 4 st på rad innan det påbörjas en ny rad */
     float: left;
     width: 25%;
 }
@@ -64,8 +57,8 @@ img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; marg
     display: table;
     clear: both;
 }
-.content {
-    background-color: gray;
+.content {/*Ramarna runt bilderna*/
+    background-color: black;
     padding: 10px;
     margin-left: 10%;
   margin-top: 20px;
@@ -74,17 +67,57 @@ img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; marg
     border-radius: 15%;
 }
 .text {
-    padding: 1px;
+  padding: 1px;
   text-align: left;
+  background-color: black;
+  margin-left: 10%;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid gray;
+  border-radius: 15%;
 }
-.img {
+.img {/*Gör bilderna lite rundade i hörnen*/
     border-radius: 15%;
 }
+.skillbar{
+    box-sizing: border-box; width: 50%; margin-left: auto; margin-right: auto;
+}
+.container{
+    width: 100%; background-color: gray;
+}
+.skills{
+    text-align: right; padding-top: 0.5em; padding-bottom: 0.5em; color: white;
+}
+.htmlEmil{
+    width: 85%; background-color: green;
+}
+.cssEmil{
+    width: 80%; background-color: blue;
+}
+.JSEmil{
+    width: 45%; background-color: red;
+}
+.JQEmil {
+    width: 10%; background-color: purple;
+}
+.htmlJohan{
+    width: 90%; background-color: green;
+}
+.cssJohan{
+    width: 95%; background-color: blue;
+}
+.JSJohan{
+    width: 55%; background-color: red;
+}
+.JQJohan{
+    width: 20%; background-color: purple;
+}
 
-
-.html {width:}
+.html {
+    width:
+}
 @media screen and (max-width: 768px) {
     .column {
-        width: 50%;
+        width: 100%;
     }
 }

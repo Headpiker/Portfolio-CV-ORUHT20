@@ -23,8 +23,8 @@ a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin:
 /*Mobilsidan*/
 @media screen and (max-width: 768px){ 
 html, body{background-image: url(../images/bakgrund.jpg);}
-p{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
-a{font-family: "Open Sans",Arial,sans-serif; color: tomato; padding: 1em; margin: 0; text-align: center;}
+p{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin: 0; text-align: center;}
+a{font-family: "Open Sans",Arial,sans-serif; color: white; padding: 1em; margin: 0; text-align: center;}
 .navbar a:not(:first-child) {display: none;} /*Meny*/
 .navbar a.icon{float: right; display: block;}
 .navbar.responsive{position: relative;} /*Den här körs bara i responsivt läge*/
@@ -38,7 +38,7 @@ img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; marg
     max-width: 768px;
     margin: auto;
 }
-.row {
+.row {/*Kod för raderna*/
     float: left;
   width: 100%;
   margin-top: 20px;
@@ -48,7 +48,7 @@ img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; marg
   padding: 0 8px;
 }
 
-.column{
+.column{ /*Gör så att bilder/textrutor hamnar brevid varandra med plats för 3 st på rad innan det påbörjas en ny rad */
     float: left;
     width: 32%;
 }
@@ -57,7 +57,7 @@ img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; marg
     display: table;
     clear: both;
 }
-.content {
+.content {/*Ramarna runt bilderna*/
     background-color: gray;
     padding: 10px;
     margin-left: 10%;
@@ -66,16 +66,16 @@ img.infobox_img{width: 30%; height: 30%; display: block; margin-left: auto; marg
     border: 2px solid darkgray;
     border-radius: 15%;
 }
-}
+
 .text {
     padding: 0 16px;
   text-align: center;
 }
-.img {
+.img {/*Gör bilderna lite rundade i hörnen*/
     border-radius: 15%;
 }
 @media screen and (max-width: 768px) {
     .column {
-        width: 100%;
+        width: 50%;
     }
 }
